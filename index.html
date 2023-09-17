@@ -9,7 +9,7 @@
 </head>
 <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
         <div class="container">
             <a href="" class="navbar-brand">Frontend Bootcamp</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
@@ -33,13 +33,17 @@
     <!--Navbar-->
 
     <!--Showcase-->
-    <section class="bg-dark text-light p-5 text-center">
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
         <div class="container">
-            <div class="d-sm-flex">
+            <div class="d-sm-flex align-items-center justify-content-between">
                 <div>
-                    <h1>Become a Web Developer</h1>
+                    <h1>Become a <span class="custom-text-color">Web Developer</span></h1>
+                    <p class="lead">
+                        "Coding is the art of turning coffee into code, fueled by passion and powered by logic."
+                    </p>
+                    <button class="btn btn-primary btn-lg my-4">Start The Enrollment</button>
                 </div>
-                <img src="Media/showcase.svg" class="img-fluid w-50" alt="">
+                <img src="Media/showcase.svg" class="img-fluid w-50 d-none d-sm-block" alt="">
             </div>
         </div>
     </section>

@@ -3,25 +3,7 @@
     padding: 0;
 }
 
-.header{
-    width: 100%;
-    height: 7vh;
-    background-color: aquamarine;
-    display: flex;
-}
 
-.header-logo{
-    width: 50%;
-    display: flex;
-    background-color: rgb(12, 95, 95);
-}
-
-.header-logo img{
-    width: 5vh;
-    height: 5vh;
-}
-
-.header-nav{
-    width: 50%;
-    background-color: rgb(255, 251, 0);
-}
+  .custom-text-color {
+    color: #2b7ffe;
+  }
