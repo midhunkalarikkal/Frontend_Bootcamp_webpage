@@ -11,13 +11,13 @@ body {
   
   .device-size-display {
     position: fixed;
-    top: 10px;
+    top: 80px;
     right: 10px;
     background-color: rgba(170, 245, 84, 0.694);
     color: #fff;
     padding: 10px;
     border-radius: 5px;
-    z-index: 1;
+    z-index: 100;
   }
   
   @media (min-width: 576px) {
@@ -43,8 +43,12 @@ body {
       content: 'XL';
     }
   }
-  
 
+  body::before{
+    display: block;
+    content: "";
+    height: 30px;
+  }
 
   .custom-text-color {
     color: #2b7ffe;
